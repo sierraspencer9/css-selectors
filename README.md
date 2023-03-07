@@ -13,6 +13,14 @@
 
 ## Add the following selectors to your CSS file:
 
+body{
+  background-color: #f2f2f2;
+ padding: 0 2em; 
+}
+h1,h2,h3{
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
 1. Select `body`
   - add `background-color: #f2f2f2;`
   - add `padding: 0 2em;`
