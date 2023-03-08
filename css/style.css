@@ -7,4 +7,16 @@ body{
     padding: 0 2em;
 
 }
-
+/* 2. Select `h1`, `h2` and `h3`
+  - add `font-family: sans-serif;`
+  - add `margin-bottom: 0;` */
+h1,h2,h3{
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+/* 
+3. Select all `p` tags
+  - add `margin: .5em 0;` */
+  p{
+    margin: .5em 0;
+  }
