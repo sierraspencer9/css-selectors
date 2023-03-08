@@ -20,3 +20,13 @@ h1,h2,h3{
   p{
     margin: .5em 0;
   }
+  /* 4. Use an adjacent selector to get the `p` tags immediately beside the `h1` and `h3`tags
+  - add `color: purple;`
+  - add `font-family: sans-serif;`
+  - add `font-weight: bold;` */
+  h1+p,h3+p{
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
