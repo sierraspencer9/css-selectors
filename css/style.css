@@ -41,3 +41,31 @@ h1,h2,h3{
     text-transform: uppercase;
     border-bottom: 2px solid #000;
   }
+  /* 7. Use the child selector to target the `p` tag immediately inside the `header`
+  - add `font-size: 1.25rem;` */
+  header>p{
+    font-size: 1.25rem;
+  }
+  /* 8. Select the class `profile-pic`
+  - add `width: 150px;`
+  - add `border-radius: 50%;` */
+  .profile-pic{
+    width: 150px;
+    border-radius: 50%;
+  }
+  /* 9. Select the link with `rel="external"` attribute
+  - add `color: purple;`  */
+  a[rel="external"]{
+    color:purple;
+  }
+  /* 10. Select the first section (using first of type) within the section using ID `experience`
+  - add `border-bottom: 2px dashed #ccc;` */
+  #experience section:first-of-type{
+    border-bottom: 2px dashed #ccc;
+  }
+  /* 11. Use the child selector to target the `section` tag immediately inside the `main`
+  - add `margin-bottom: 3rem;` */
+  section>main{
+    margin-bottom: 3rem;
+  }
+  
