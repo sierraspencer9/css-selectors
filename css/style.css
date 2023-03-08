@@ -29,4 +29,15 @@ h1,h2,h3{
     font-family: sans-serif;
     font-weight: bold;
   }
-  
+  /* 5. Use descendant selector to select the `div` inside `header`
+  - add `margin: 1em 0;` */
+  header div{
+    margin: 1em 0;
+  }
+  /* 6. Select all `h2` tags
+  - add `text-transform: uppercase;`
+  - add `border-bottom: 2px solid #000;`  */
+  h2{
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+  }
