@@ -65,7 +65,22 @@ h1,h2,h3{
   }
   /* 11. Use the child selector to target the `section` tag immediately inside the `main`
   - add `margin-bottom: 3rem;` */
-  section>main{
+  main>section{
     margin-bottom: 3rem;
   }
+  /* 12. Select the `strong` tag inside the `p` tag directly after the `h2` in the `section` directly inside the `main`
+  - add `color: purple;` */
+main>section h2 + p strong{
+    color: purple;
+}
+/* 13. Select every even `li`
+  - add `color: purple;` */
+  li:nth-child(2){
+    color:purple;
+  }
   
+/* 14. Select the last `div` inside the `dl`
+- add `background-color: #ccc;`   */
+dl div:last-child{
+background-color:#ccc ;
+}
